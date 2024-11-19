@@ -1,0 +1,13 @@
+.book-list{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:1rem;
+}
+.Book{
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(223, 199, 197);
+    
+}
+.Book img{
+    width: 50%;
+}
