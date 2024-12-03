@@ -1,0 +1,5 @@
+create-vite . --template react
+press enter 
+
+npm i -> for installing necessities
+to run file -> npm run dev

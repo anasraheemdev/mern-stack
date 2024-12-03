@@ -1,32 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
-function BookList() {
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+function Booklist() {
   return (
     <>
-      <div className='book-list'>
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
-        <Book />
+      <div className="card-container">
         <Book />
         <Book />
         <Book />
@@ -34,19 +12,24 @@ function BookList() {
         <Book />
         <Book />
       </div>
-      </>
-      )
-}
+    </>
+  )
 
+}
 function Book() {
   return (
     <>
-      <div className='Book'>
-        <img src="https://m.media-amazon.com/images/I/512V7zylZPL._SY445_SX342_.jpg" alt="" />
-        <h2>Introduction</h2>
-        <p>This book is the  Introduction to Programming</p>
+      <div className="card">
+        <div className="card-image">
+          <img src="https://www.schandpublishing.com/Handler/ImageHandler.ashx?width=314&height=404&imgpath=~/Upload/BookImage/9789358701401.jpg" />
+        </div>
+        <div className="card-content">
+          <h3 >Wren & Martin</h3>
+          <p>Wren N Martin book for Secondary and High School to learn English Grammer</p>
+        </div>
+
       </div>
     </>
   )
 }
-ReactDOM.render(<BookList />, document.querySelector("#root"))
+ReactDOM.render(<Booklist />, document.querySelector("#root"))

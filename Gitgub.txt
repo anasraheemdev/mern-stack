@@ -1,0 +1,15 @@
+New File
+$ git branch -M main
+$ git remote add origin https://github.com/anasraheemdev/props.git
+$ git remote -v  ---> to check wheter conected
+$ git add .
+$ git commit -m "Initial Commit by Me"
+$ git push -u origin main ( if not pushed the =>{$ git push -u origin main --force})
+
+
+
+
+Existing File
+$ git add . 
+$ git commit -m "Initial Commit by Me"
+$ git push -u origin main

@@ -1,0 +1,15 @@
+.book-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  flex-direction: row;
+}
+.Book{
+  max-width: 15%;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px rgb(223, 199, 197);
+  
+}
+.Book img{
+  width: 50%;
+}
