@@ -1,13 +1,11 @@
 import React from 'react'
-import Mobiles from './Mobiles'
-
+import Navbar from './Navbar/Navbar'
 
 const App = () => {
   return (
     <>
-    <Mobiles/>
+    <Navbar/>
     </>
-
   )
 }
 

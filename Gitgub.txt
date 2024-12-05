@@ -1,4 +1,9 @@
 New File
+$ git init
+$ git config user.email ----> Check Whether the email is connected or not
+if not {
+   $git config user.email "email@email.com"
+}
 $ git branch -M main
 $ git remote add origin https://github.com/anasraheemdev/props.git
 $ git remote -v  ---> to check wheter conected

@@ -1,13 +1,11 @@
 import React from 'react'
-import Mobiles from './Mobiles'
-
+import Accordians from './Accordians'
 
 const App = () => {
   return (
     <>
-    <Mobiles/>
+    <Accordians/>
     </>
-
   )
 }
 
