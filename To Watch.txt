@@ -19,11 +19,13 @@ https://youtube.com/live/NB-hCuHVWSs?feature=share	13 Nov 24
 -------------------------------------------------------------------------------------------------------------------------------------------
 https://www.youtube.com/watch?v=SMhKHMBkGNs             17 Dec 24 ---- [Use Ref]
 
-https://youtube.com/live/V8Y2zfD4jOU?feature=share	18 Dec 24
+https://youtube.com/live/V8Y2zfD4jOU?feature=share	18 Dec 24 ---- [UseReducer , Prop Drilling ]
 
-https://youtube.com/live/FlMtHwHE95U?feature=share	19 Dec 24 ---- [Prop Drilling ]
+https://youtube.com/live/FlMtHwHE95U?feature=share	19 Dec 24 ---- [Prop Drilling, routing ]
 https://youtube.com/live/eVPuC9TYt3k?feature=share	26 Dec 24 ---- [ Materio ]
 
 https://youtube.com/live/H8fusW1ln6Q?feature=share      31st December
 
-https://youtube.com/live/jnwba5fCnS8?feature=share	01 Jan 25
+https://youtube.com/live/jnwba5fCnS8?feature=share	01 Jan 2025
+
+https://www.youtube.com/live/2mU7XtmRurE?feature=share  02 Jan 2025

@@ -1,0 +1,57 @@
+Whenever we make a CHange in or Node file we do need to rerun the file
+But can Prevent this by using a Library which auto re-run the file on every single change
+ 
+Library --> nodemon ===> npm i nodemon
+
+  -- > inorder to start nodemon
+We will Create a Custom Command ( like npm run dev ) that will start server
+that will be created in the packages.json file in the "Script" and also mention the file name which it will take careof
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "nodemon ./index.js"
+  },
+
+Now run -- > npm run server
+
+
+----Express----
+npm i express
+
+
+--------------------------
+
+// Here we have Imported Express to use Express 
+const express = require("express");
+
+----- .env install ------
+npm i dotenv
+
+// Yahan per ma ENV file ko require kr rha ho
+require("dotenv").config()
+
+
+
+// make an express application 
+
+const app = express();
+
+// yahan per hum apna Server start kr rhy hyn and Por Define lr rhy hyn and
+// Saath jo 2nd Parameter hy whana kuch hum bheejty hyn k Mujah Deekhao bi k mera server start hi chukka
+
+
+app.listen(process.env.PORT, ()=>console.log(`Server Started on Port ${process.env.PORT}.`)); // ab iss ma hum PORT variable use kr rhy hyn jo hum na import kiyya uper
+
+
+
+//apny files ko confidential rakhny k liya Hum env banatay hyn environment variables jo k .env hotaa hy
+
+
+
+
+
+
+---------- ab agar terminal ko color ful banana ho ---------
+
+reruire("colors")
+app.listen(process.env.PORT, ()=>console.log(`Server Started on Port ${process.env.PORT.yellow}`))/
